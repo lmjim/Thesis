@@ -1,0 +1,94 @@
+Notes,State,State Code,Deaths,Population,Crude Rate
+,Alabama,1,782,4779736,16.4
+,Alaska,2,144,710231,20.3
+,Arizona,4,931,6392017,14.6
+,Arkansas,5,419,2915918,14.4
+,California,6,2935,37253956,7.9
+,Colorado,8,555,5029196,11
+,Connecticut,9,209,3574097,5.8
+,Delaware,10,88,897934,9.8
+,District of Columbia,11,99,601723,16.5
+,Florida,12,2268,18801310,12.1
+,Georgia,13,1223,9687653,12.6
+,Hawaii,15,45,1360301,3.3
+,Idaho,16,198,1567582,12.6
+,Illinois,17,1064,12830632,8.3
+,Indiana,18,709,6483802,10.9
+,Iowa,19,213,3046355,7
+,Kansas,20,300,2853118,10.5
+,Kentucky,21,555,4339367,12.8
+,Louisiana,22,864,4533372,19.1
+,Maine,23,113,1328361,8.5
+,Maryland,24,538,5773552,9.3
+,Massachusetts,25,270,6547629,4.1
+,Michigan,26,1076,9883640,10.9
+,Minnesota,27,365,5303925,6.9
+,Mississippi,28,475,2967297,16
+,Missouri,29,846,5988927,14.1
+,Montana,30,164,989415,16.6
+,Nebraska,31,152,1826341,8.3
+,Nevada,32,395,2700551,14.6
+,New Hampshire,33,118,1316470,9
+,New Jersey,34,456,8791894,5.2
+,New Mexico,35,301,2059179,14.6
+,New York,36,1011,19378102,5.2
+,North Carolina,37,1123,9535483,11.8
+,North Dakota,38,65,672591,9.7
+,Ohio,39,1148,11536504,10
+,Oklahoma,40,538,3751351,14.3
+,Oregon,41,458,3831074,12
+,Pennsylvania,42,1307,12702379,10.3
+,Rhode Island,44,49,1052567,4.7
+,South Carolina,45,648,4625364,14
+,South Dakota,46,75,814180,9.2
+,Tennessee,47,932,6346105,14.7
+,Texas,48,2714,25145561,10.8
+,Utah,49,314,2763885,11.4
+,Vermont,50,70,625741,11.2
+,Virginia,51,875,8001024,10.9
+,Washington,53,609,6724540,9.1
+,West Virginia,54,273,1852994,14.7
+,Wisconsin,55,501,5686986,8.8
+,Wyoming,56,92,563626,16.3
+Total,,,31672,308745538,10.3
+---,,,,,
+"Dataset: Multiple Cause of Death, 1999-2018",,,,,
+Query Parameters:,,,,,
+UCD - Injury Mechanism & All Other Leading Causes: Firearm,,,,,
+Year/Month: 2010,,,,,
+Group By: State,,,,,
+Show Totals: True,,,,,
+Show Zero Values: False,,,,,
+Show Suppressed: True,,,,,
+"Calculate Rates Per: 100,000",,,,,
+Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups),,,,,
+---,,,,,
+Help: See http://wonder.cdc.gov/wonder/help/mcd.html for more information.,,,,,
+---,,,,,
+"Query Date: May 22, 2020 6:25:30 PM",,,,,
+---,,,,,
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Multiple Cause of Death",,,,,
+"1999-2018 on CDC WONDER Online Database, released in 2020. Data are from the Multiple Cause of Death Files, 1999-2018, as",,,,,
+compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed,,,,,
+"at http://wonder.cdc.gov/mcd-icd10.html on May 22, 2020 6:25:30 PM",,,,,
+---,,,,,
+Caveats:,,,,,
+"1. The population figures for year 2018 are bridged-race estimates of the July 1 resident population, from the Vintage 2018",,,,,
+"postcensal series released by NCHS on June 25, 2019. The population figures for year 2017 are bridged-race estimates of the July",,,,,
+"1 resident population, from the Vintage 2017 postcensal series released by NCHS on June 27, 2018. The population figures for",,,,,
+"year 2016 are bridged-race estimates of the July 1 resident population, from the Vintage 2016 postcensal series released by NCHS",,,,,
+"on June 26, 2017. The population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the",,,,,
+"Vintage 2015 postcensal series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race",,,,,
+"estimates of the July 1 resident population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The",,,,,
+"population figures for year 2013 are bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal",,,,,
+"series released by NCHS on June 26, 2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident",,,,,
+"population, from the Vintage 2012 postcensal series released by NCHS on June 13, 2013. Population figures for 2011 are",,,,,
+"bridged-race estimates of the July 1 resident population, from the county-level postcensal Vintage 2011 series released by NCHS",,,,,
+"on July 18, 2012. Population figures for 2010 are April 1 Census counts. The population figures for years 2001 - 2009, are",,,,,
+"bridged-race estimates of the July 1 resident population, from the revised intercensal county-level 2000 - 2009 series released",,,,,
+"by NCHS on October 26, 2012. Population figures for 2000 are April 1 Census counts. Population figures for 1999 are from the",,,,,
+1990-1999 intercensal series of July 1 estimates. Population figures for Infant Age Groups are the number of live births.,,,,,
+"<br/><b>Note:</b> Rates and population figures for years 2001 - 2009 differ slightly from previously published reports, due to",,,,,
+use of the population estimates which were available at the time of release.,,,,,
+2. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the,,,,,
+resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd.html#Age Group.,,,,,

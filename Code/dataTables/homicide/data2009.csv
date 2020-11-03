@@ -1,0 +1,106 @@
+Notes,State,State Code,Deaths,Population,Crude Rate
+,Alabama,1,317,4757938,6.7
+,Alaska,2,17,698895,-1
+,Arizona,4,228,6343154,3.6
+,Arkansas,5,157,2896843,5.4
+,California,6,1460,36961229,4
+,Colorado,8,108,4972195,2.2
+,Connecticut,9,78,3561807,2.2
+,Delaware,10,36,891730,4
+,District of Columbia,11,104,592228,17.6
+,Florida,12,804,18652644,4.3
+,Georgia,13,456,9620846,4.7
+,Hawaii,15,10,1346717,-1
+,Idaho,16,10,1554439,-1
+,Illinois,17,628,12796778,4.9
+,Indiana,18,245,6459325,3.8
+,Iowa,19,19,3032870,-1
+,Kansas,20,92,2832704,3.2
+,Kentucky,21,133,4317074,3.1
+,Louisiana,22,449,4491648,10
+,Maine,23,15,1329590,-1
+,Maryland,24,316,5730388,5.5
+,Massachusetts,25,110,6517613,1.7
+,Michigan,26,495,9901591,5
+,Minnesota,27,46,5281203,0.9
+,Mississippi,28,197,2958774,6.7
+,Missouri,29,319,5961088,5.4
+,Montana,30,21,983982,2.1
+,Nebraska,31,31,1812683,1.7
+,Nevada,32,97,2684665,3.6
+,New Hampshire,33,-1,1316102,-1
+,New Jersey,34,229,8755602,2.6
+,New Mexico,35,92,2036802,4.5
+,New York,36,505,19307066,2.6
+,North Carolina,37,407,9449566,4.3
+,North Dakota,38,-1,664968,-1
+,Ohio,39,366,11528896,3.2
+,Oklahoma,40,148,3717572,4
+,Oregon,41,55,3808600,1.4
+,Pennsylvania,42,483,12666858,3.8
+,Rhode Island,44,14,1053646,-1
+,South Carolina,45,235,4589872,5.1
+,South Dakota,46,10,807067,-1
+,Tennessee,47,347,6306019,5.5
+,Texas,48,1003,24801761,4
+,Utah,49,30,2723421,1.1
+,Vermont,50,-1,624817,-1
+,Virginia,51,272,7925937,3.4
+,Washington,53,118,6667426,1.8
+,West Virginia,54,57,1847775,3.1
+,Wisconsin,55,103,5669264,1.8
+,Wyoming,56,10,559851,-1
+Total,,,11493,306771529,3.7
+---,,,,,
+"Dataset: Multiple Cause of Death, 1999-2018",,,,,
+Query Parameters:,,,,,
+UCD - Injury Intent: Homicide,,,,,
+UCD - Injury Mechanism & All Other Leading Causes: Firearm,,,,,
+Year/Month: 2009,,,,,
+Group By: State,,,,,
+Show Totals: True,,,,,
+Show Zero Values: False,,,,,
+Show -1: True,,,,,
+"Calculate Rates Per: 100,000",,,,,
+Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups),,,,,
+---,,,,,
+Help: See http://wonder.cdc.gov/wonder/help/mcd.html for more information.,,,,,
+---,,,,,
+"Query Date: May 23, 2020 2:25:54 AM",,,,,
+---,,,,,
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Multiple Cause of Death",,,,,
+"1999-2018 on CDC WONDER Online Database, released in 2020. Data are from the Multiple Cause of Death Files, 1999-2018, as",,,,,
+compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed,,,,,
+"at http://wonder.cdc.gov/mcd-icd10.html on May 23, 2020 2:25:54 AM",,,,,
+---,,,,,
+Caveats:,,,,,
+1. Circumstances in Georgia for the years 2008 and 2009 have resulted in unusually high death counts for the ICD-10 cause of,,,,,
+"death code R99, ""Other ill-defined and unspecified causes of mortality."" Caution should be used in interpreting these data.",,,,,
+More information: http://wonder.cdc.gov/wonder/help/mcd.html#Georgia-Reporting-Anomalies.,,,,,
+2. Circumstances in New Jersey for the year 2009 have resulted in unusually high death counts for the ICD-10 cause of death code,,,,,
+"R99, ""Other ill-defined and unspecified causes of mortality"" and therefore unusually low death counts in other ICD-10 codes,",,,,,
+"most notably R95, ""Sudden Infant Death Syndrome"" and X40-X49, ""Unintentional poisoning."" Caution should be used in",,,,,
+interpreting these data. More information: http://wonder.cdc.gov/wonder/help/mcd.html#New-Jersey-Reporting-Anomalies.,,,,,
+3. Data are -1 when the data meet the criteria for confidentiality constraints. More information:,,,,,
+http://wonder.cdc.gov/wonder/help/mcd.html#Assurance of Confidentiality.,,,,,
+4. Death rates are flagged as -1 when the rate is calculated with a numerator of 20 or less. More information:,,,,,
+http://wonder.cdc.gov/wonder/help/mcd.html#-1.,,,,,
+"5. The population figures for year 2018 are bridged-race estimates of the July 1 resident population, from the Vintage 2018",,,,,
+"postcensal series released by NCHS on June 25, 2019. The population figures for year 2017 are bridged-race estimates of the July",,,,,
+"1 resident population, from the Vintage 2017 postcensal series released by NCHS on June 27, 2018. The population figures for",,,,,
+"year 2016 are bridged-race estimates of the July 1 resident population, from the Vintage 2016 postcensal series released by NCHS",,,,,
+"on June 26, 2017. The population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the",,,,,
+"Vintage 2015 postcensal series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race",,,,,
+"estimates of the July 1 resident population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The",,,,,
+"population figures for year 2013 are bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal",,,,,
+"series released by NCHS on June 26, 2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident",,,,,
+"population, from the Vintage 2012 postcensal series released by NCHS on June 13, 2013. Population figures for 2011 are",,,,,
+"bridged-race estimates of the July 1 resident population, from the county-level postcensal Vintage 2011 series released by NCHS",,,,,
+"on July 18, 2012. Population figures for 2010 are April 1 Census counts. The population figures for years 2001 - 2009, are",,,,,
+"bridged-race estimates of the July 1 resident population, from the revised intercensal county-level 2000 - 2009 series released",,,,,
+"by NCHS on October 26, 2012. Population figures for 2000 are April 1 Census counts. Population figures for 1999 are from the",,,,,
+1990-1999 intercensal series of July 1 estimates. Population figures for Infant Age Groups are the number of live births.,,,,,
+"<br/><b>Note:</b> Rates and population figures for years 2001 - 2009 differ slightly from previously published reports, due to",,,,,
+use of the population estimates which were available at the time of release.,,,,,
+6. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the,,,,,
+resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd.html#Age Group.,,,,,
