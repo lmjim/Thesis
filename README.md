@@ -13,7 +13,7 @@
 
 ## About the Code
 
-This code was originally written to produce maps with data from the CDC's WONDER database on deaths caused by firearms.  
+This code was originally written to produce maps with data from the CDC's WONDER database on deaths caused by firearms. 
 It utilizes ESRI's ArcMap 10.5 software. The images produced are included in 
 [Thesis](https://github.com/lmjim/Thesis/blob/main/Thesis.pdf) and the pdfs are compiled into 
 [Map_Porfolio](https://github.com/lmjim/Thesis/blob/main/Map_Portfolio.pdf). 
