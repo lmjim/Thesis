@@ -13,12 +13,15 @@
 
 ## About the Code
 
-This code is designed to be used with data from the CDC's WONDER database and work with ESRI's ArcMap 10.5. 
+This code was originally written to produce maps with data from the CDC's WONDER database on deaths caused by firearms.  
+It utilizes ESRI's ArcMap 10.5 software. The images produced are included in 
+[Thesis](https://github.com/lmjim/Thesis/blob/main/Thesis.pdf) and the pdfs are compiled into 
+[Map_Porfolio](https://github.com/lmjim/Thesis/blob/main/Map_Portfolio.pdf). 
 
-Data on deaths caused by firearms is provided in the [dataTables](https://github.com/lmjim/Thesis/tree/main/Code/dataTables) folder.
-The results the code produces when run on this data is provided separately from the code, under [Example_Results](https://github.com/lmjim/Thesis/tree/main/Example_Results). 
+The data on deaths caused by firearms is provided in the [dataTables](https://github.com/lmjim/Thesis/tree/main/Code/dataTables) folder.
+The results the code produces when it is run on this data is provided separately from the code, under [Example_Results](https://github.com/lmjim/Thesis/tree/main/Example_Results). 
 
-The included five scripts produce map documents, displaying the data in relations to states, and exports to pdf and/or jpg.
+Although this code originally had a specific purpose, it has been generalized to work with other data from CDC WONDER. 
 
 *Disclaimer: Not affiliated with ESRI or CDC*  
 **CDC data has restrictions on it, see [terms of use](https://wonder.cdc.gov/mcd-icd10.html "CDC Wonder Database").**
