@@ -36,7 +36,7 @@ The included five scripts produce map documents, displaying the data in relation
       + legalIntervention
       + unintentional
       + undetermined
-    * Another folder labeled "results"
+    * Another folder labeled "results"  
       This should contain two sub-folders:
       + jpgs
       + pdfs
@@ -64,7 +64,7 @@ The included five scripts produce map documents, displaying the data in relation
 1. Create some empty directories for the code to reference
     * A folder for each year the data covers (ex. 2015)  
     Each year should contain a folder for each category chosen  
-    * Another folder labeled "results"
+    * Another folder labeled "results"  
       This should contain two sub-folders:
       + jpgs
       + pdfs
@@ -73,12 +73,43 @@ The included five scripts produce map documents, displaying the data in relation
     Each of those folders should contain your data (.csv files)  
     Follow the naming convention used by the example  
     "data" followed by the year and ending in ".csv"
-3. Create templates
-    * <TODO add instructions>
-4. Open *IDLE (Python GUI)* or *Python (command line)* included with ArcGIS
-5. Edit finalproject.py
+3. Create symbology templates
+    * For this step you will need to work in ArcMap directly
+    * Add the US_states shapefile to the map document
+    * Add the csv file with the minimum crude rate for the category
+    * Join the csv file to the shapefile
+    * Change the symbology to use graduated colors (such as light red to dark red)
+    * Manually set the classification to be the equivalent of equal intervals across the entire category's data  
+      You cannot simply select the method because it will set the breaks according to only that year's data  
+      You may consider having the last class cover a larger interval due to extraneous values  
+    * Set the labels to use the same precision your data uses
+    * Save the layer as file  
+      This will be used as a symbology template
+    * Repeat this step for each category
+4. The following files are provided:
+    * shapeFiles folder containing the shapefiles used in this project
+    * layout folder containg two .mxd (for pdf or jpg layout)
+    * The following Python files:  
+      + finalproject  
+      + createDocuments  
+      + modifyElements  
+      + getStats  
+      + createChoropleth
+5. Open *IDLE (Python GUI)* or *Python (command line)* included with ArcGIS
+6. Edit finalproject.py
     * Change the wrkspc path found on line 17
       + The path should match the path to the Thesis/Code directory on your computer
     * Choose True/False for pdf and jpg (lines 20-21) depending on the results you want to produce
-    * <TODO add instructions>
-6. Run finalproject.py
+    * Update lines 99-111
+      + *years* is a list of all the years the dataset covers
+      + *categories* is a list of the CDC categories the dataset covers  
+        the names in this list match the names of the folders within each folder year and dataTables
+      + each entry in *titles* appends the default title  
+        the order corresponds to the order of *categories*
+            + To change the default title, edit lines 66 and 179 in modifyElements.py
+      + The symbology templates refer to the templates created in step 3
+            + Update/Remove/Create the paths to each layer file
+            + Make sure to update the *symbologies* list on line 111
+     * Note: the first time you run this code on your own dataset, you may want to limit the number of years or categories  
+         You can update and use lines 114-117 instead of lines 99-101, 111 to run a small test
+7. Run finalproject.py
