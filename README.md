@@ -69,10 +69,10 @@ The included five scripts produce map documents, displaying the data in relation
       + jpgs
       + pdfs
 2. Replace the contents of dataTables
-    * There should be a folder for each category chosen
+    * There should be a folder for each category chosen  
     Each of those folders should contain your data (.csv files)  
     Follow the naming convention used by the example  
-    "data" followed by the year and ending in ".csv"
+    ("data" followed by the year and ending in ".csv")
 3. Create symbology templates
     * For this step you will need to work in ArcMap directly
     * Add the US_states shapefile to the map document
@@ -84,7 +84,7 @@ The included five scripts produce map documents, displaying the data in relation
       You may consider having the last class cover a larger interval due to extraneous values  
     * Set the labels to use the same precision your data uses
     * Save the layer as file  
-      This will be used as a symbology template
+    * This will be used as a symbology template
     * Repeat this step for each category
 4. The following files are provided:
     * shapeFiles folder containing the shapefiles used in this project
@@ -105,11 +105,11 @@ The included five scripts produce map documents, displaying the data in relation
       + *categories* is a list of the CDC categories the dataset covers  
         the names in this list match the names of the folders within each folder year and dataTables
       + each entry in *titles* appends the default title  
-        the order corresponds to the order of *categories*
-            + To change the default title, edit lines 66 and 179 in modifyElements.py
-      + The symbology templates refer to the templates created in step 3
-            + Update/Remove/Create the paths to each layer file
-            + Make sure to update the *symbologies* list on line 111
+        the order corresponds to the order of *categories*  
+            - Note: to change the default title, edit lines 66 and 179 in modifyElements.py
+      + The symbology templates refer to the templates created in step 3  
+            - Update/Remove/Create the paths to each layer file  
+            - Make sure to update the *symbologies* list on line 111
      * Note: the first time you run this code on your own dataset, you may want to limit the number of years or categories  
          You can update and use lines 114-117 instead of lines 99-101, 111 to run a small test
 7. Run finalproject.py
