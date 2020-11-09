@@ -11,6 +11,10 @@
 
 ---
 
+[Watch the defense presentation on YouTube](https://youtu.be/ihgz5r21-Sg)
+
+---
+
 ## About the Code
 
 This code was originally written to produce maps with data from the CDC's WONDER database on deaths caused by firearms. 
